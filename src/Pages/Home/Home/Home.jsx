@@ -5,9 +5,8 @@ const Home = () => {
     return (
         <div className="mb-5">
             <Banner></Banner>
-            <div style={{ margin: '40px 200px 0px 200px' }}>
+            <div style={{ margin: '40px 180px 0px 180px' }} className="position-relative">
                 <AllPosts></AllPosts>
-                <hr />
             </div>
         </div>
     );
