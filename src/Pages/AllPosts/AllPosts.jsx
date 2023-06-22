@@ -3,7 +3,7 @@ import PostDetails from '../PostDetails/PostDetails';
 
 const AllPosts = () => {
     return (
-        <div>
+        <div className='position-relative'>
             <div className="d-flex justify-content-between align-items-center">
                 <div className="d-flex gap-3">
                     <p className='fw-medium'>All Posts(32)</p>
@@ -22,8 +22,8 @@ const AllPosts = () => {
                     <button className="btn btn-primary d-flex p-2 align-content-center justify-content-center "> <span><MdOutlineGroupAdd></MdOutlineGroupAdd></span> <span className='ms-2'>Join Group</span></button>
                 </div>
             </div>
-            <hr />
-
+            <hr className='border-black' />
+            <hr className='position-absolute border-2 border-black' style={{ width: '90px' , top:'41.3px' }} />
             <PostDetails></PostDetails>
         </div>
     );

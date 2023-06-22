@@ -1,4 +1,5 @@
 import navTitle from '../../../assets/images/nav.png'
+import { RxMagnifyingGlass } from "react-icons/rx";
 
 const Navigation = () => {
     return (
@@ -12,10 +13,11 @@ const Navigation = () => {
                         <img style={{ width: '26px' }} src={navTitle} alt="" />
                         <span>RLD</span>
                     </div>
-                    <div>
+                    <div className='position-relative'>
                         <form className="d-flex" role="search">
-                            <input style={{ width: '360px', height: '42px' }} className="form-control me-2 rounded-pill fw-semibold" type="search" placeholder="Search for your favorite groups in AGT" aria-label="Search" />
+                            <input style={{ width: '360px', height: '42px' }} className="ps-5 form-control me-2 rounded-pill fw-semibold" type="search" placeholder="Search for your favorite groups in AGT" aria-label="Search" />
                         </form>
+                       <RxMagnifyingGlass style={{top:'15px' , left:'15px'}} className='position-absolute '></RxMagnifyingGlass>
                     </div>
                     <div id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
