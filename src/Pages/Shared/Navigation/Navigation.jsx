@@ -2,8 +2,8 @@ import navTitle from '../../../assets/images/nav.png'
 
 const Navigation = () => {
     return (
-        <div className=' bg-light'>
-            <nav className="navbar navbar-expand-lg  p-3">
+        <div>
+            <nav style={{backgroundColor:'white'}} className="navbar navbar-expand-lg  p-3">
                 <div className="container-fluid">
                     <div className='fs-2 d-flex align-items-center'>
                         <span className='text-success'>AGT</span>
